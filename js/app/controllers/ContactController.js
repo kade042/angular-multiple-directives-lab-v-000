@@ -19,6 +19,8 @@ function ContactController() {
           name: this.name,
           phone: this.phoneNumber
         });
+        this.name = '';
+        this.phoneNumber = '';
     };
 }
 
